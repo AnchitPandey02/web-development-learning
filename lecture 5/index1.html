@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 5 Table And Lists</title>
+</head>
+<body bgcolor="sky blue">
+    <table border="1">
+  <!-- Caption -->
+  <caption>Employee Information</caption>
+    
+      <!-- <table>: Defines the table itself.     (1st come thead then tbody then comes tfoot)
+                <tr>: Used for table rows.
+                <th>: Used for table headings.
+                <td>: Used for table cells (data). -->
+  <!-- Table Header -->
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+
+  <!-- Table Body -->
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Anchit</td>
+      <td>Developer</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Natik</td>
+      <td>Designer</td>
+      <td>$70,000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Rajnish</td>
+      <td>Manager</td>
+      <td>$90,000</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Priyanshu</td>
+        <td>Finance head</td>
+        <td>$45,000</td>
+    </tr>
+  </tbody>
+
+  <!-- Table Footer -->
+  <tfoot>
+    <tr>
+      <td colspan="3">Total Employees</td>
+      <td>4</td>
+    </tr>
+  </tfoot>
+</table>
+              <!-- LISTS -->
+         <!-- UNORDERED LISTS -->
+   <ul>
+        <li>Anchit</li>
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ul> 
+       <!-- TYPES OF UNORDERED LISTS -->
+   <ul type="square">
+        <li>Anchit</li>
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ul>
+    <ul type="circle">
+      <li>Notebook</li>
+      <li>Marker</li>
+    </ul>
+    <!-- THIS IS DEFAULT TYPE  -->
+    <ul type="disc"> 
+       <li>Glasses</li>
+       <li>RTX 4050</li>
+    </ul>
+         <!-- ORDERED LISTS -->
+    <ol>
+      <li>Mango</li>
+      <li>Papaya</li>
+      <li>Orange</li>
+     </ol>
+     <!-- TYPES OF ORDERED LISTS -->
+    <ol type="A">
+      <li>Mango</li>
+      <li>Papaya</li>
+      <li>Orange</li>
+     </ol>
+
+    <ol type="a">
+      <li>Mango</li>
+      <li>Papaya</li>
+      <li>Orange</li>
+     </ol>
+
+      <ol type="i">
+      <li>Mango</li>
+      <li>Papaya</li>
+      <li>Orange</li>
+     </ol>
+
+      <ol type="I" start="5">
+      <li>Mango</li>
+      <li>Papaya</li>
+      <li>Orange</li>
+     </ol>
+     <!-- DEFININATION LISTS -->
+      <h1>HTML Definition List</h1>
+    <dl>
+       <dt>HTML</dt>
+       <dd>HyperText Markup Language: The standard language for creating web pages.</dd>
+
+       <dt>CSS</dt>
+       <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written in HTML.</dd>
+
+       <dt>JavaScript</dt>
+       <dd>A programming language commonly used in web development to add interactive features.</dd>
+    </dl>
+</body>
+</html>
