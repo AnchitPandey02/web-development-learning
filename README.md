@@ -1,6 +1,6 @@
 # Web Development Learning
 
-This repository contains my web development learning journey, including practice exercises, projects, and notes as I progress through different frontend and backend technologies.
+This repository contains my web development learning journey, including practice exercises, projects, and notes as I progress through frontend technologies. Backend technologies will be added in the future.
 
 ## Repository Structure
 
